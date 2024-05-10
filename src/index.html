@@ -7,32 +7,23 @@
     <link rel="stylesheet" href="/styles/output.css">
     <title>CURSO TAILWINDCSS</title>
 </head>
-<body class="p-4">
-    <h1 class="text-primaria text-6xl">CURSO TAILWINDCSS</h1>
-    <p class="first-letter:text-red-500 text-2xl mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sapiente aut quaerat. Labore impedit et accusantium, nesciunt nostrum ea adipisci omnis sequi ut explicabo, natus laudantium vel, distinctio atque molestias?</p>
+<body class="bg-slate-200">
+    <main class="w-full min-h-screen flex flex-col md:flex-row items-center justify-center mx-auto">
 
-    <button class="bg-sky-700 mt-4 hover:bg-sky-200 duration-1000">acessar conta</button>
+        <section class="w-full flex-1 flex justify-center items-center"> 
 
-    <button class="bg-green-600 text-white py-2 px-4 hover:animate-floatUP">
-        Criar conta
-    </button>
+            <div class="w-full max-w-xl flex justify-center items-center">
+                <img src="" alt="">
+                <h1>Login</h1>
+                <input type="text" placeholder="Digite seu e-mail">
+            </div>
 
-    <div class="w-96 h-96 border-4 flex flex-col justify-around items-center">
-        <div class="w-20 h-20 bg-red-500">1</div>
-        <div class="w-20 h-20 bg-green-500">2</div>
-        <div class="w-20 h-20 bg-blue-500">2</div>
+        </section>
 
-    </div>
+        <section class="hidden md:flex w-full flex-1"> DIREITA </section>
 
-    <h2 class="text-2xl sm:text-5xl md:text-8xl"> Media query teste</h2>
-    <!-- Taiwlind usa mobile first como premicia -->
+    </main>
 
-    <div class="w-full border-4 grid grid-cols-1 md:grid-cols-2">
-        <div class="bg-red-500 h-20">1</div>
-        <div class="bg-blue-500 h-20">2</div>
-        <div class="bg-green-500 h-20">3</div>
-
-    </div>
     
 </body>
 </html>
